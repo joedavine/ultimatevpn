@@ -1,0 +1,66 @@
+/* COMPARISON TABLE
+-------------------------------------------------- */
+
+#comparison {
+  background-image: url('../img/vpn-background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.comparison-table {
+  background-color: @white;
+  /*border: 1px @light-grey solid;*/
+  border-radius: 3px;
+  margin: 30px 0px;
+  box-shadow: 0.5px 0.5px 5px 0px #bdbdbd;
+}
+
+.comparison-table:hover {
+  box-shadow: 1px 1px 5px 0px #bdbdbd;
+}
+
+.comparison-table .table-header h3 {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+.comparison-table .row {
+  border-bottom: 1px @light-grey solid;
+}
+
+.comparison-table ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.comparison-table .fa-chevron-right {
+  margin-left: 10px;
+}
+
+.col-ranking,
+.col-rating,
+.col-brand,
+.col-site {
+  text-align: center;
+}
+
+// Vertical align the ranking in comparison table
+.col-ranking {
+  line-height: 60px;
+  font-weight: bold;
+}
+.col-ranking ul li {
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+// Vertical align for the stars in comparison table
+.comparison-table .stars {
+  line-height: 60px;
+}
+.comparison-table .stars i {
+  color: #ec9806;
+  font-size: 21px;
+  vertical-align: middle;
+}

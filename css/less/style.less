@@ -1,0 +1,72 @@
+// PetProtect Stylesheet, LESS file to be converted to CSS file, 1.0.0
+@import "/info.less";
+
+// Primary Colors
+@primary:        #f39c12;
+@secondary:      #3BB174;
+@white:          #fff;
+@cta:            #3BB174;
+@light-grey:     #ebebeb;
+@dark-grey:      #555555;
+@success:        #3c948b;
+@info:           #5F5F5F;
+@warning:        #ecd06f;
+@danger:         #df6c4f;
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding-top: 70px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.primary-bg {
+  background-color: @primary;
+  color: #fff;
+}
+.primary-bg a {
+  color: #fff;
+  text-decoration: underline;
+}
+.primary-bg hr {
+  width: 100px;
+}
+.grey-bg {
+  background-color: @light-grey;
+}
+
+.title {
+  font-size: 46px;
+  font-weight: 300;
+  padding-top: 30px;
+}
+.title span {
+  color: @primary;
+  font-weight: 600;
+}
+.sub-title {
+  padding-bottom: 10px;
+}
+
+.padding-xxlg {
+  padding-top: 100px;
+  padding-bottom: 180px;
+}
+
+.disclaimer p {
+  color: @dark-grey;
+  font-size: 11px;
+}
+
+// Parts
+@import "/navbar.less";
+@import "/footer.less";
+@import "/buttons.less";
+@import "/jumbotron.less";
+@import "/comparison-table.less";
+@import "/faqs.less";
+@import "/forms.less";
+@import "/testimonials.less";
