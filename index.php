@@ -81,8 +81,7 @@
               </ul>
             </div>
             <div class="col-md-2 col-brand">
-              <p>HIDE MY ASS</p>
-              <a target="_blank" href="" class="website-rating-logo"><img class="img-responsive" src=""></a>
+              <a target="_blank" href="https://www.hidemyass.com/vpn/r23542:1/" class="website-rating-logo"><img class="img-responsive" src="img/uv-hma.png"></a>
             </div>
             <div class="col-md-2 col-pros">
               <ul class="pros">
@@ -117,8 +116,7 @@
               </ul>
             </div>
             <div class="col-md-2 col-brand">
-              <p>TUNNEL BEAR</p>
-              <a target="_blank" href="" class="website-rating-logo"><img class="img-responsive" src=""></a>
+              <a target="_blank" href="http://click.tunnelbear.com/aff_c?offer_id=2&aff_id=2488" class="website-rating-logo"><img class="img-responsive" src="img/uv-tb.png"></a>
             </div>
             <div class="col-md-2 col-pros">
               <ul class="pros">
@@ -153,8 +151,7 @@
               </ul>
             </div>
             <div class="col-md-2 col-brand">
-              <p>NORD VPN</p>
-              <a target="_blank" href="" class="website-rating-logo"><img class="img-responsive" src=""></a>
+              <a target="_blank" href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=3189" class="website-rating-logo"><img class="img-responsive" src="img/uv-nvpn.png"></a>
             </div>
             <div class="col-md-2 col-pros">
               <ul class="pros">
@@ -189,8 +186,7 @@
               </ul>
             </div>
             <div class="col-md-2 col-brand">
-              <p>CYBER GHOST</p>
-              <a target="_blank" href="" class="website-rating-logo"><img class="img-responsive" src=""></a>
+              <a target="_blank" href="https://store.cyberghostvpn.com/848/cookie?affiliate=44364&redirectto=http%3A%2F%2Fwww.cyberghostvpn.com%2Fen%3F%23buy&redirecthash=477615BAEF0478F934DBA05A95EE789A" class="website-rating-logo"><img class="img-responsive" src="img/uv-cg.png"></a>
             </div>
             <div class="col-md-2 col-pros">
               <ul class="pros">
@@ -254,7 +250,7 @@
               <div class="panel panel-default">
 
                 <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                  <h4 class="panel-title text-center">What is Pet Insurance? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
+                  <h4 class="panel-title text-center">What is a VPN? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
                 </div>
                 <div id="collapse1" class="panel-collapse collapse">
                   <div class="panel-body">

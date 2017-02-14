@@ -257,6 +257,46 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/uv-cg.png": {
+		"ft": 32768,
+		"iS": 9455,
+		"oA": 0,
+		"oAP": "\/img\/uv-cg.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/uv-hm.png": {
+		"ft": 32768,
+		"iS": 7032,
+		"oA": 0,
+		"oAP": "\/img\/uv-hm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/uv-hma.png": {
+		"ft": 32768,
+		"iS": 15781,
+		"oA": 0,
+		"oAP": "\/img\/uv-hma.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/uv-nvpn.png": {
+		"ft": 32768,
+		"iS": 6915,
+		"oA": 0,
+		"oAP": "\/img\/uv-nvpn.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/uv-tb.png": {
+		"ft": 32768,
+		"iS": 17367,
+		"oA": 0,
+		"oAP": "\/img\/uv-tb.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/vpn-background.png": {
 		"ft": 32768,
 		"iS": 24908,
