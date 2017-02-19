@@ -31,10 +31,12 @@
     <![endif]-->
 
     <!-- ADD GOOGLE TAG MANAGER -->
+      <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+      <?php include 'php/sql.php';?>
   </head>
 
   <body>
-
+      
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
