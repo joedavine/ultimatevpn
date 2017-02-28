@@ -30,11 +30,33 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- ADD GOOGLE TAG MANAGER -->
+      <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TG5R379');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics -->
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85968687-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+      
   </head>
 
   <body>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TG5R379"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -81,7 +103,7 @@
               </ul>
             </div>
             <div class="col-md-2 col-brand">
-              <a target="_blank" href="https://www.hidemyass.com/vpn/r23542:1/" class="website-rating-logo"><img class="img-responsive" src="img/uv-hma.png"></a>
+              <a target="_blank" href="https://www.hidemyass.com/vpn/r23542:1/" class="website-rating-logo hma" onclick="sendHMAbrand()"><img class="img-responsive" src="img/uv-hma.png"></a>
             </div>
             <div class="col-md-2 col-pros">
               <ul class="pros">
@@ -104,7 +126,7 @@
             </div>
             <div class="col-md-2 col-site">
               <div class="">
-                <a target="_blank" href="https://www.hidemyass.com/vpn/r23542:1/" class="btn btn-cta">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.hidemyass.com/vpn/r23542:1/" class="btn btn-cta hma" onclick="sendHMAbutton()">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
               </div>
             </div>
           </div> <!-- /row -->
@@ -116,7 +138,7 @@
               </ul>
             </div>
             <div class="col-md-2 col-brand">
-              <a target="_blank" href="http://click.tunnelbear.com/aff_c?offer_id=2&aff_id=2488" class="website-rating-logo"><img class="img-responsive" src="img/uv-tb.png"></a>
+              <a target="_blank" href="http://click.tunnelbear.com/aff_c?offer_id=2&aff_id=2488" class="website-rating-logo tb" onclick="sendTBbrand()"><img class="img-responsive" src="img/uv-tb.png"></a>
             </div>
             <div class="col-md-2 col-pros">
               <ul class="pros">
@@ -139,7 +161,7 @@
             </div>
             <div class="col-md-2 col-site">
               <div class="">
-                <a target="_blank" href="http://click.tunnelbear.com/aff_c?offer_id=2&aff_id=2488" class="btn btn-cta">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a target="_blank" href="http://click.tunnelbear.com/aff_c?offer_id=2&aff_id=2488" class="btn btn-cta tb" onclick="sendTBbutton()">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
               </div>
             </div>
           </div> <!-- /row -->
@@ -151,7 +173,7 @@
               </ul>
             </div>
             <div class="col-md-2 col-brand">
-              <a target="_blank" href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=3189" class="website-rating-logo"><img class="img-responsive" src="img/uv-nvpn.png"></a>
+              <a target="_blank" href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=3189" class="website-rating-logo nvpn" onclick="sendNVPNbrand()"><img class="img-responsive" src="img/uv-nvpn.png"></a>
             </div>
             <div class="col-md-2 col-pros">
               <ul class="pros">
@@ -174,7 +196,7 @@
             </div>
             <div class="col-md-2 col-site">
               <div class="">
-                <a target="_blank" href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=3189" class="btn btn-cta">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=3189" class="btn btn-cta nvpn" onclick="sendNVPNbutton()">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
               </div>
             </div>
           </div> <!-- /row -->
@@ -186,7 +208,7 @@
               </ul>
             </div>
             <div class="col-md-2 col-brand">
-              <a target="_blank" href="https://store.cyberghostvpn.com/848/cookie?affiliate=44364&redirectto=http%3A%2F%2Fwww.cyberghostvpn.com%2Fen%3F%23buy&redirecthash=477615BAEF0478F934DBA05A95EE789A" class="website-rating-logo"><img class="img-responsive" src="img/uv-cg.png"></a>
+              <a target="_blank" href="https://store.cyberghostvpn.com/848/cookie?affiliate=44364&redirectto=http%3A%2F%2Fwww.cyberghostvpn.com%2Fen%3F%23buy&redirecthash=477615BAEF0478F934DBA05A95EE789A" class="website-rating-logo gvpn" onclick="sendCGbrand()"><img class="img-responsive" src="img/uv-cg.png"></a>
             </div>
             <div class="col-md-2 col-pros">
               <ul class="pros">
@@ -209,7 +231,7 @@
             </div>
             <div class="col-md-2 col-site">
               <div class="">
-                <a target="_blank" href="https://store.cyberghostvpn.com/848/cookie?affiliate=44364&redirectto=http%3A%2F%2Fwww.cyberghostvpn.com%2Fen%3F%23buy&redirecthash=477615BAEF0478F934DBA05A95EE789A" class="btn btn-cta">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://store.cyberghostvpn.com/848/cookie?affiliate=44364&redirectto=http%3A%2F%2Fwww.cyberghostvpn.com%2Fen%3F%23buy&redirecthash=477615BAEF0478F934DBA05A95EE789A" class="btn btn-cta gvpn" onclick="sendCGbutton()">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
               </div>
             </div>
           </div> <!-- /row -->
@@ -297,7 +319,32 @@
         <p>Ultimate VPN &copy; <?php echo date("Y") ?>. All Rights Reserved.</p>
       </div>
     </footer>
-
+      <script>
+            function sendCGbutton() {
+                ga('send', 'event', 'Clickout', 'Button', 'CyberGhost');
+            } 
+                      function sendHMAbutton() {
+                ga('send', 'event', 'Clickout', 'Button', 'HMA');
+            } 
+                      function sendTBbutton() {
+                ga('send', 'event', 'Clickout', 'Button', 'TunnelBear');
+            } 
+                      function sendNVPNbutton() {
+                ga('send', 'event', 'Clickout', 'Button', 'NVPN');
+            } 
+                      function sendCGbrand() {
+                ga('send', 'event', 'Clickout', 'Brand', 'CyberGhost');
+            } 
+                      function sendHMAbrand() {
+                ga('send', 'event', 'Clickout', 'Brand', 'HMA');
+            } 
+                      function sendTBbrand() {
+                ga('send', 'event', 'Clickout', 'Brand', 'TunnelBear');
+            } 
+                      function sendNVPNbrand() {
+                ga('send', 'event', 'Clickout', 'Brand', 'NVPN');
+            } 
+      </script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
