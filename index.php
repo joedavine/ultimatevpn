@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Ultimate VPN - the best online VPN comparison site</title>
+    <title>Ultimate VPN - Find the best online VPN for Netflix</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,17 +39,17 @@
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/index.php"><img src="img/ultimate-vpn-logo.png" alt="Pet Protect Insurance Logo"><h1 class="text-hide">Pet Protect</h1></a>
+          <a class="navbar-brand" href="/index.php"><img src="img/ultimate-vpn-logo.png" alt="Ultimate VPN Logo"><h1 class="text-hide">Ultimate VPN</h1></a>
         </div>
         <div class="navbar-right">
-          <a class="btn btn-primary navbar-btn" href="#comparison">Find the Ultimate VPN for you!</a>
+          <a class="btn btn-primary navbar-btn" href="#comparison">Find the Ultimate VPN <i class="fa fa-caret-right" aria-hidden="true" style="margin-left:10px;"></i></a>
         </div>
       </div>
     </nav>
 
     <div id="comparison">
 
-      <h1 class="title text-center">Find the <span>Ultimate VPN</span> for you!</h1>
+      <h1 class="title text-center">Find the <span>Ultimate VPN</span> for Netflix!</h1>
 
       <div class="container">
         <div class="comparison-table">
@@ -222,7 +222,7 @@
       <div class="row">
         <div class="col-md-offset-2 col-md-8 text-center">
           <div class="thumb">
-            <img src="img/testimonial-thumb.svg" alt="" class="img-circle">
+            <img src="img/man-1.png" alt="" class="img-circle" style="max-width: 180px; width:100%;">
           </div>
           <div class="stars">
             <i class="fa fa-star fa-2x"></i>
@@ -231,9 +231,9 @@
             <i class="fa fa-star fa-2x"></i>
             <i class="fa fa-star fa-2x"></i>
           </div>
-          <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="quote">"Finally I found a VPN that works perfectly for me...and it allowed me to watch any content I wanted online! I've now also got added security and feel much safer online - thank you guys!"</p>
           <span class="quote-break">-</span>
-          <p class="name">Bill Gates</p>
+          <p class="name">Jeff Bray</p>
           <p class="location">Essex, United Kingdom</p>
           <p></p>
         </div>
@@ -254,36 +254,28 @@
                 </div>
                 <div id="collapse1" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>A VPN (or Virtual Private Network) is a method used to mask your online identity and add security, privacy and cross-country capabilities to your web browsing. Basically, what a VPN does is hide your IP and fully encrypt your Internet connection, so that nobody else has access to your online activity - and you can browse freely across the web.</p>
                   </div>
                 </div>
 
                 <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                  <h4 class="panel-title text-center">Which type of insurance cover is right for me? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
+                  <h4 class="panel-title text-center">Do VPNs unlock international content online? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
                 </div>
                 <div id="collapse2" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Yes. Whether you live in a nondemocratic country, wish to access certain sites from your university or workplace, or are eager to relax by streaming your favorite online TV shows, you must have encountered at least once the problem of censored, blocked or geo-restricted content. VPNs can tunnel through international servers, unlocking the content you want to watch from any country.</p>
                   </div>
                 </div>
 
                 <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                  <h4 class="panel-title text-center">How much does Pet Insurance cost? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
+                  <h4 class="panel-title text-center">How much do VPNs cost? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
                 </div>
                 <div id="collapse3" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Can you really put a price on digital freedom? In all seriousness though, most VPNs cost a small monthly fee (around £10), which you can normally get discounts on if you buy more than a 1-month rolling contract. You can save up to 50% just by purchasing for a full year instead of on a month-by-month basis.</p>
                   </div>
                 </div>
 
-                <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                  <h4 class="panel-title text-center">When should I be thinking about getting Pet Insurance? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
-                </div>
-                <div id="collapse4" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  </div>
-                </div>
 
               </div>
             </div>
@@ -292,7 +284,7 @@
 
         <div class="row">
           <div class="col-xs-12">
-            <div class="disclaimer text-center">
+            <div class="disclaimer text-center" style="margin-top:40px;">
               <p>Disclaimer: we earn commission from certain VPN service websites when a user finds our information useful and signs up to their service. We are offer to compare, review and provide honest information about these VPN service websites because of this advertiser commission. Not all of the information is 100% correct as things are constantly chaning - we do our best to keep up in order to ensure our reviews are as accurate and honest as possible. If you have any questions, please email us and we'll get back to you as soon as we can.</p>
             </div>
           </div>
