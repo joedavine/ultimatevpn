@@ -61,7 +61,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/index.php"><img src="img/ultimate-vpn-logo.png" alt="Ultimate VPN Logo"><h1 class="text-hide">Ultimate VPN</h1></a>
+          <a class="navbar-brand" href="/index.php"><img src="img/ultimate-vpn-logo.png" alt="Ultimate VPN Logo"><h2 class="text-hide">Ultimate VPN</h1></a>
         </div>
         <div class="navbar-right">
           <a class="btn btn-primary navbar-btn" href="#comparison">Find the Ultimate VPN <i class="fa fa-caret-right" aria-hidden="true" style="margin-left:10px;"></i></a>
@@ -72,7 +72,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="comparison">
 
       <h1 class="title text-center">Find the <span>Ultimate VPN</span> for Netflix!</h1>
-
+        <div class="hero" style="margin: 30px 120px 0px 120px; text-align: center;">
+            <p>We try our best to test every new VPN service in the UK, rating them for streaming, speed, security, cost and ease-of-use. Our rankings below show our opinion on what is the best VPN service for streaming shows from other countries using services such as Netflix and Amazon Prime Now. We hope you find the best VPN service possible - let us know how it goes!</p>
+            <p style="font-weight: bold; font-style: italic; margin-top: 30px;">The Ultimate VPN Team</p>
+        </div>
       <div class="container">
         <div class="comparison-table">
           <div class="row table-header text-center">
@@ -240,6 +243,58 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div> <!-- /container -->
     </div>
 
+      
+      <!-- TEST -->
+       <div class="faqs grey-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+            <h2 class="text-center">Frequently Asked Questions</h2>
+
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+
+                <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="cursor:pointer;">
+                  <h4 class="panel-title text-center">What is a VPN? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>A VPN (or Virtual Private Network) is a method used to mask your online identity and add security, privacy and cross-country capabilities to your web browsing. Basically, what a VPN does is hide your IP and fully encrypt your Internet connection, so that nobody else has access to your online activity - and you can browse freely across the web.</p>
+                  </div>
+                </div>
+
+                <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="cursor:pointer;">
+                  <h4 class="panel-title text-center">Do VPNs unlock international content online? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Yes. Whether you live in a nondemocratic country, wish to access certain sites from your university or workplace, or are eager to relax by streaming your favorite online TV shows, you must have encountered at least once the problem of censored, blocked or geo-restricted content. VPNs can tunnel through international servers, unlocking the content you want to watch from any country.</p>
+                  </div>
+                </div>
+
+                <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="cursor:pointer;">
+                  <h4 class="panel-title text-center">How much do VPNs cost? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Can you really put a price on digital freedom? In all seriousness though, most VPNs cost a small monthly fee (around £10), which you can normally get discounts on if you buy more than a 1-month rolling contract. You can save up to 50% just by purchasing for a full year instead of on a month-by-month basis.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+      </div> <!-- /container -->
+    </div>
+      
+      <!-- END TEST -->
     <div class="testimonials container">
       <div class="row">
         <div class="col-md-offset-2 col-md-8 text-center">
@@ -260,59 +315,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p></p>
         </div>
       </div>
-    </div> <!-- /container -->
-
-    <div class="faqs grey-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-offset-2 col-md-8">
-            <h2 class="text-center">Frequently Asked Questions</h2>
-
-            <div class="panel-group" id="accordion">
-              <div class="panel panel-default">
-
-                <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                  <h4 class="panel-title text-center">What is a VPN? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
-                </div>
-                <div id="collapse1" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <p>A VPN (or Virtual Private Network) is a method used to mask your online identity and add security, privacy and cross-country capabilities to your web browsing. Basically, what a VPN does is hide your IP and fully encrypt your Internet connection, so that nobody else has access to your online activity - and you can browse freely across the web.</p>
-                  </div>
-                </div>
-
-                <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                  <h4 class="panel-title text-center">Do VPNs unlock international content online? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
-                </div>
-                <div id="collapse2" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <p>Yes. Whether you live in a nondemocratic country, wish to access certain sites from your university or workplace, or are eager to relax by streaming your favorite online TV shows, you must have encountered at least once the problem of censored, blocked or geo-restricted content. VPNs can tunnel through international servers, unlocking the content you want to watch from any country.</p>
-                  </div>
-                </div>
-
-                <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                  <h4 class="panel-title text-center">How much do VPNs cost? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
-                </div>
-                <div id="collapse3" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <p>Can you really put a price on digital freedom? In all seriousness though, most VPNs cost a small monthly fee (around £10), which you can normally get discounts on if you buy more than a 1-month rolling contract. You can save up to 50% just by purchasing for a full year instead of on a month-by-month basis.</p>
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="disclaimer text-center" style="margin-top:40px;">
+        <div class="disclaimer text-center" style="margin-top:40px;">
               <p>Disclaimer: we earn commission from certain VPN service websites when a user finds our information useful and signs up to their service. We are offer to compare, review and provide honest information about these VPN service websites because of this advertiser commission. Not all of the information is 100% correct as things are constantly chaning - we do our best to keep up in order to ensure our reviews are as accurate and honest as possible. If you have any questions, please email us and we'll get back to you as soon as we can.</p>
             </div>
-          </div>
-        </div>
-      </div> <!-- /container -->
-    </div>
+    </div> <!-- /container -->
+
+   
 
     <footer class="footer">
       <div class="container text-center">
