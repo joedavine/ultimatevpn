@@ -86,7 +86,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <h3>Brand</h3>
             </div>
             <div class="col-md-2 col-pros-header">
-              <h3>Pros</h3>
+              <h3>Monthly Price</h3>
             </div>
             <div class="col-md-3 col-works-with-header">
               <h3>Works with</h3>
@@ -109,13 +109,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a target="_blank" href="https://www.hidemyass.com/vpn/r23542:1/" class="website-rating-logo hma" onclick="sendHMAbrand()"><img class="img-responsive" src="img/uv-hma.png"></a>
             </div>
             <div class="col-md-2 col-pros">
-              <ul class="pros">
-                <li>Pro 1</li>
+              <ul class="pros price">
+                <span>Only</span>
+                <p>£4.99</p>
               </ul>
             </div>
             <div class="col-md-3 col-works-with">
-              <ul class="pros">
-                <li>Works with</li>
+              <ul class="pros works-with">
+                <li><img src="img/netflix-icon.png"></li>
+                <li><img src="img/hulu-icon.png"></li>
+                <li><img src="img/directv-icon.png"></li>
+                <li><img src="img/amazon-icon.png"></li>
               </ul>
             </div>
             <div class="col-md-2 col-rating">
@@ -144,13 +148,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a target="_blank" href="http://click.tunnelbear.com/aff_c?offer_id=2&aff_id=2488" class="website-rating-logo tb" onclick="sendTBbrand()"><img class="img-responsive" src="img/uv-tb.png"></a>
             </div>
             <div class="col-md-2 col-pros">
-              <ul class="pros">
-                <li>Pro 1</li>
-              </ul>
+                <ul class="pros price">
+                    <span>500MB</span>
+                    <p>FREE</p>
+                </ul>
             </div>
             <div class="col-md-3 col-works-with">
-              <ul class="pros">
-                <li>Works with</li>
+              <ul class="pros works-with">
+                <li><img src="img/netflix-icon.png"></li>
+                <li><img src="img/amazon-icon.png"></li>
               </ul>
             </div>
             <div class="col-md-2 col-rating">
@@ -179,13 +185,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a target="_blank" href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=3189" class="website-rating-logo nvpn" onclick="sendNVPNbrand()"><img class="img-responsive" src="img/uv-nvpn.png"></a>
             </div>
             <div class="col-md-2 col-pros">
-              <ul class="pros">
-                <li>Pro 1</li>
+              <ul class="pros price">
+                <span>Only</span>
+                <p>£4.58</p>
               </ul>
             </div>
             <div class="col-md-3 col-works-with">
-              <ul class="pros">
-                <li>Works with</li>
+              <ul class="pros works-with">
+                <li><img src="img/amazon-icon.png"></li>
+                <li><img src="img/netflix-icon.png"></li>
               </ul>
             </div>
             <div class="col-md-2 col-rating">
@@ -214,13 +222,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a target="_blank" href="https://store.cyberghostvpn.com/848/cookie?affiliate=44364&redirectto=http%3A%2F%2Fwww.cyberghostvpn.com%2Fen%3F%23buy&redirecthash=477615BAEF0478F934DBA05A95EE789A" class="website-rating-logo gvpn" onclick="sendCGbrand()"><img class="img-responsive" src="img/uv-cg.png"></a>
             </div>
             <div class="col-md-2 col-pros">
-              <ul class="pros">
-                <li>Pro 1</li>
+              <ul class="pros price">
+                <span>Only</span>
+                <p>£3.74</p>
               </ul>
             </div>
             <div class="col-md-3 col-works-with">
-              <ul class="pros">
-                <li>Works with</li>
+              <ul class="pros works-with">
+                <li><img src="img/netflix-icon.png"></li>
+                <li><img src="img/amazon-icon.png"></li>
+                <li><img src="img/hulu-icon.png"></li>
               </ul>
             </div>
             <div class="col-md-2 col-rating">
@@ -280,7 +291,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <p>Can you really put a price on digital freedom? In all seriousness though, most VPNs cost a small monthly fee (around £10), which you can normally get discounts on if you buy more than a 1-month rolling contract. You can save up to 50% just by purchasing for a full year instead of on a month-by-month basis.</p>
                   </div>
                 </div>
-
+                                  <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="cursor:pointer;">
+                  <h4 class="panel-title text-center">Is it legal to  <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>In short; yes. There are no laws prohibiting the use of VPNs in UK. Furthermore, deliberately bypassing geo-restrictions to access overseas content is not considered illegal in UK. (At least, not yet.)</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
