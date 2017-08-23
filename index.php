@@ -50,6 +50,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 <!-- End Google Analytics -->
       
+      <!-- Bootstrap Tooltips -->
+      <script>
+          $(function () {
+              $('[data-toggle="tooltip"]').tooltip()
+          })
+      </script>
+      
   </head>
 
   <body>
@@ -58,23 +65,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="/index.php"><img src="img/ultimate-vpn-logo.png" alt="Ultimate VPN Logo"><h2 class="text-hide">Ultimate VPN</h1></a>
-        </div>
-        <div class="navbar-right">
-          <a class="btn btn-primary navbar-btn" href="#comparison">Find the Ultimate VPN <i class="fa fa-caret-right" aria-hidden="true" style="margin-left:10px;"></i></a>
-        </div>
-      </div>
-    </nav>
+      <?php include "includes/nav.php";?>
 
     <div id="comparison">
 
       <h1 class="title text-center">Find the <span>Ultimate VPN</span> for Netflix!</h1>
-        <div class="hero" style="margin: 30px 120px 0px 120px; text-align: center;">
+        <div class="hero">
             <p>We try our best to test every new VPN service in the UK, rating them for streaming, speed, security, cost and ease-of-use. Our rankings below show our opinion on what is the best VPN service for streaming shows from other countries using services such as Netflix and Amazon Prime Now. We hope you find the best VPN service possible - let us know how it goes!</p>
-            <p style="font-weight: bold; font-style: italic; margin-top: 30px;">The Ultimate VPN Team</p>
+            <p class="ultimate-team">The Ultimate VPN Team</p>
         </div>
       <div class="container">
         <div class="comparison-table">
@@ -86,7 +84,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <h3>Brand</h3>
             </div>
             <div class="col-md-2 col-pros-header">
-              <h3>Monthly Price</h3>
+              <h3>Monthly Price*</h3>
             </div>
             <div class="col-md-3 col-works-with-header">
               <h3>Works with</h3>
@@ -116,10 +114,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-md-3 col-works-with">
               <ul class="pros works-with">
-                <li><img src="img/netflix-icon.png"></li>
-                <li><img src="img/hulu-icon.png"></li>
-                <li><img src="img/directv-icon.png"></li>
-                <li><img src="img/amazon-icon.png"></li>
+                <li><img src="img/netflix-icon.png" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Netflix"></li>
+                <li><img src="img/hulu-icon.png" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Hulu"></li>
+                <li><img src="img/directv-icon.png" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Direct TV"></li>
+                <li><img src="img/amazon-icon.png" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Amazon"></li>
               </ul>
             </div>
             <div class="col-md-2 col-rating">
@@ -132,8 +130,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
             </div>
             <div class="col-md-2 col-site">
-              <div class="">
+              <div class="visit-button">
                 <a target="_blank" href="https://www.hidemyass.com/vpn/r23542:1/" class="btn btn-cta hma" onclick="sendHMAbutton()">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                  <p class="read-review"><a href="reviews/hide-my-ass">Read review</a></p>
               </div>
             </div>
           </div> <!-- /row -->
@@ -155,8 +154,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-md-3 col-works-with">
               <ul class="pros works-with">
-                <li><img src="img/netflix-icon.png"></li>
-                <li><img src="img/amazon-icon.png"></li>
+                <li><img src="img/netflix-icon.png" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Netflix"></li>
+                <li><img src="img/amazon-icon.png" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Amazon"></li>
               </ul>
             </div>
             <div class="col-md-2 col-rating">
@@ -169,8 +168,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
             </div>
             <div class="col-md-2 col-site">
-              <div class="">
+              <div class="visit-button">
                 <a target="_blank" href="http://click.tunnelbear.com/aff_c?offer_id=2&aff_id=2488" class="btn btn-cta tb" onclick="sendTBbutton()">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                  <p class="read-review"><a href="reviews/tunnel-bear">Read review</a></p>
               </div>
             </div>
           </div> <!-- /row -->
@@ -192,8 +192,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-md-3 col-works-with">
               <ul class="pros works-with">
-                <li><img src="img/amazon-icon.png"></li>
-                <li><img src="img/netflix-icon.png"></li>
+                <li><img src="img/amazon-icon.png" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Amazon"></li>
+                <li><img src="img/netflix-icon.png" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Netflix"></li>
               </ul>
             </div>
             <div class="col-md-2 col-rating">
@@ -206,8 +206,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
             </div>
             <div class="col-md-2 col-site">
-              <div class="">
+              <div class="visit-button">
                 <a target="_blank" href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=3189" class="btn btn-cta nvpn" onclick="sendNVPNbutton()">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                  <p class="read-review"><a href="reviews/nord-vpn">Read review</a></p>
               </div>
             </div>
           </div> <!-- /row -->
@@ -229,9 +230,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-md-3 col-works-with">
               <ul class="pros works-with">
-                <li><img src="img/netflix-icon.png"></li>
-                <li><img src="img/amazon-icon.png"></li>
-                <li><img src="img/hulu-icon.png"></li>
+                <li><img src="img/netflix-icon.png" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Netflix"></li>
+                <li><img src="img/amazon-icon.png" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Amazon"></li>
+                <li><img src="img/hulu-icon.png" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Hulu"></li>
               </ul>
             </div>
             <div class="col-md-2 col-rating">
@@ -239,13 +240,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
                 <i class="fa fa-star-o"></i>
               </div>
             </div>
             <div class="col-md-2 col-site">
-              <div class="">
+              <div class="visit-button">
                 <a target="_blank" href="https://store.cyberghostvpn.com/848/cookie?affiliate=44364&redirectto=http%3A%2F%2Fwww.cyberghostvpn.com%2Fen%3F%23buy&redirecthash=477615BAEF0478F934DBA05A95EE789A" class="btn btn-cta gvpn" onclick="sendCGbutton()">Visit Site<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                  <p class="read-review"><a href="reviews/cyber-ghost">Read review</a></p>
               </div>
             </div>
           </div> <!-- /row -->
@@ -291,10 +293,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <p>Can you really put a price on digital freedom? In all seriousness though, most VPNs cost a small monthly fee (around £10), which you can normally get discounts on if you buy more than a 1-month rolling contract. You can save up to 50% just by purchasing for a full year instead of on a month-by-month basis.</p>
                   </div>
                 </div>
-                                  <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="cursor:pointer;">
-                  <h4 class="panel-title text-center">Is it legal to  <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
+                                  <div class="accordion-toggle panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse4" style="cursor:pointer;">
+                  <h4 class="panel-title text-center">Is it legal to use VPNs? <i class="pull-right fa fa-chevron-down" aria-hidden="true"></i></h4>
                 </div>
-                <div id="collapse3" class="panel-collapse collapse">
+                <div id="collapse4" class="panel-collapse collapse">
                   <div class="panel-body">
                     <p>In short; yes. There are no laws prohibiting the use of VPNs in UK. Furthermore, deliberately bypassing geo-restrictions to access overseas content is not considered illegal in UK. (At least, not yet.)</p>
                   </div>
@@ -335,6 +337,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
         <div class="disclaimer text-center" style="margin-top:40px;">
               <p>Disclaimer: we earn commission from certain VPN service websites when a user finds our information useful and signs up to their service. We are offer to compare, review and provide honest information about these VPN service websites because of this advertiser commission. Not all of the information is 100% correct as things are constantly chaning - we do our best to keep up in order to ensure our reviews are as accurate and honest as possible. If you have any questions, please email us and we'll get back to you as soon as we can.</p>
+            <p><b>*</b>Correct as of 04/04/2017 - subject to change</p>
             </div>
     </div> <!-- /container -->
 

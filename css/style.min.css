@@ -62,6 +62,24 @@ p {
   max-width: 170px;
   padding: 0px;
 }
+
+.navbar-links {
+    float: right;
+}
+
+.navbar ul li {
+    float: left;
+    list-style: none;
+    margin: 35px 15px;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.navbar ul li:last-of-type {
+    margin: 35px 35px 35px 15px;
+}
 /* FOOTER
 -------------------------------------------------- */
 footer {
@@ -302,4 +320,114 @@ footer p {
 
 .price {
     text-align: center;
+}
+
+.visit-button {
+    margin-top: 10px;
+}
+
+.visit-button a {
+    margin-bottom: 3px;
+}
+
+.stars {
+    margin-top: 10px;
+}
+
+.col-works-with {
+    margin-top: 10px;
+}
+
+.hero {
+    margin: 30px 120px 0px 120px; text-align: center;
+}
+
+.ultimate-team {
+    font-weight: bold; font-style: italic; margin-top: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-btn {
+        display: none;
+    }
+    .navbar-links {
+        float: right;
+    }
+    .navbar-header {
+        float: left;
+    }
+    .navbar ul li:first-of-type {
+        margin: 35px 15px 0px 35px;
+    }
+    .navbar ul li:last-of-type {
+        margin: 35px 15px 0px 15px;
+    }  
+    .navbar-brand img {
+        max-width: 130px;
+    }
+    .title {
+        margin-top: 0px;
+        font-size: 28px;
+    }
+    .navbar-default {
+        min-height:80px;
+    }
+    .hero {
+        margin: 30px;
+    }
+    .table-header {
+        display: none;
+    }
+    .stars {
+        display: none;
+    }
+    .img-responsive {
+        margin: auto;
+        margin-top: 15px;
+    }
+    .col-ranking {
+        display: none;
+    }
+    .works-with {
+        padding-left: 40px !important;
+        margin-top: -10px;
+    }
+    .col-site {
+        clear: both;
+    }
+    .comparison-table {
+        margin-top: 0px;
+    }
+    .faqs .panel-body p {
+        margin: 15px;
+    }
+}
+    
+ /* CONTENT SECTION */
+
+.content-section {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.read-review {
+    font-size:10px;
+    margin-bottom: 0px;
+}
+
+.read-review a {
+    margin-bottom: 0px;
+}
+
+.review {
+    text-align: center;
+    display: inline-block;
+    color: #333;
+    margin: 0px 10px;
+}
+
+.review a {
+    color: #333;
 }
